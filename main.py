@@ -5,6 +5,8 @@ from time import sleep
 from testcases.unittest import test_user_register, test_user_login, test_admin_login, test_category, test_article
 from lib.HTMLTestRunner import *
 import unittest
+import pytest
+import allure
 
 if __name__ == '__main__':
     preRunner = unittest.TextTestRunner()
